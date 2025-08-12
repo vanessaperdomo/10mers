@@ -182,14 +182,3 @@ END $$
 
 DELIMITER ;
 
-TRUNCATE TABLE Evento_Artista;
-
-DROP TABLE Participante_Evento;
-DROP TABLE Evento_Artista;
-DROP TABLE Evento;
-DROP TABLE Lugar;
-DROP TABLE Artista;
-DROP TABLE Participante;
-DROP TABLE Categoria;
-
-DROP DATABASE EventosCulturales;
