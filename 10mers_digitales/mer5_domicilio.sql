@@ -170,15 +170,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Tecnico_Servicio;
-
-DROP TABLE Pedido_Servicio;
-DROP TABLE Tecnico_Servicio;
-DROP TABLE Pedido;
-DROP TABLE Cliente;
-DROP TABLE Servicio;
-DROP TABLE Tecnico;
-DROP TABLE Categoria;
-
-DROP DATABASE ServiciosDomicilio;
