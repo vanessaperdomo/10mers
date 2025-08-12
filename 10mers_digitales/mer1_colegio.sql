@@ -180,18 +180,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
--- TRUNCATE
-TRUNCATE TABLE Matricula;
-
--- DROP TABLES
-DROP TABLE Asignacion;
-DROP TABLE Matricula;
-DROP TABLE Aula;
-DROP TABLE Estudiante;
-DROP TABLE Curso;
-DROP TABLE Profesor;
-DROP TABLE Departamento;
-
--- DROP DATABASE
-DROP DATABASE Colegio;
