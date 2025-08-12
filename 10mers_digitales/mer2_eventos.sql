@@ -1,7 +1,5 @@
-
 CREATE DATABASE EventosCulturales;
 USE EventosCulturales;
-
 
 CREATE TABLE Lugar (
   lugar_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -170,7 +168,6 @@ SELECT COUNT(DISTINCT lugar_id) FROM Evento;
 SELECT COUNT(*) FROM Participante_Evento;
 
 DELIMITER $$
-
 CREATE PROCEDURE RegistrarParticipacion (
   IN p_participante_id INT,
   IN p_evento_id INT
@@ -179,6 +176,4 @@ BEGIN
   INSERT INTO Participante_Evento (participante_id, evento_id)
   VALUES (p_participante_id, p_evento_id);
 END $$
-
 DELIMITER ;
-
