@@ -170,15 +170,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Leccion_Instructor;
-
-DROP TABLE Curso_Estudiante;
-DROP TABLE Leccion_Instructor;
-DROP TABLE Leccion;
-DROP TABLE Curso;
-DROP TABLE Estudiante;
-DROP TABLE Instructor;
-DROP TABLE Categoria;
-
-DROP DATABASE PlataformaCursos;
