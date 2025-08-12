@@ -53,7 +53,6 @@ CREATE TABLE Instructor_Actividad (
 ALTER TABLE Zona ADD COLUMN ubicacion VARCHAR(100);
 ALTER TABLE Zona DROP COLUMN ubicacion;
 
-
 INSERT INTO Zona (nombre, capacidad) VALUES 
 ('Bosque Norte', 30),
 ('Río Azul', 20),
@@ -175,15 +174,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Instructor_Actividad;
-
-DROP TABLE Reserva_Actividad;
-DROP TABLE Instructor_Actividad;
-DROP TABLE Reserva;
-DROP TABLE Visitante;
-DROP TABLE Actividad;
-DROP TABLE Instructor;
-DROP TABLE Zona;
-
-DROP DATABASE Camping;
