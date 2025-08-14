@@ -172,15 +172,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Entrenador_Rutina;
-
-DROP TABLE Clase_Rutina;
-DROP TABLE Entrenador_Rutina;
-DROP TABLE Clase;
-DROP TABLE Cliente;
-DROP TABLE Rutina;
-DROP TABLE Entrenador;
-DROP TABLE Categoria;
-
-DROP DATABASE CentroFitness;
