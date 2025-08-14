@@ -171,15 +171,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Guia_Actividad;
-
-DROP TABLE Paquete_Actividad;
-DROP TABLE Guia_Actividad;
-DROP TABLE Paquete;
-DROP TABLE Cliente;
-DROP TABLE Actividad;
-DROP TABLE Guia;
-DROP TABLE Categoria;
-
-DROP DATABASE AgenciaViajes;
