@@ -170,15 +170,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Agente_Casa;
-
-DROP TABLE Casa_Caracteristica;
-DROP TABLE Agente_Casa;
-DROP TABLE Casa;
-DROP TABLE Cliente;
-DROP TABLE Caracteristica;
-DROP TABLE Agente;
-DROP TABLE Tipo_Casa;
-
-DROP DATABASE VentaCasas;
