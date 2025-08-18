@@ -177,15 +177,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Auto_Mantenimiento;
-
-DROP TABLE Auto_Mantenimiento;
-DROP TABLE Contrato_Auto;
-DROP TABLE Auto;
-DROP TABLE Cliente;
-DROP TABLE Agencia;
-DROP TABLE Mantenimiento;
-DROP TABLE Tipo_Auto;
-
-DROP DATABASE RentaAutos;
