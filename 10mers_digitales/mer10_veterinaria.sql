@@ -173,15 +173,3 @@ BEGIN
 END $$
 
 DELIMITER ;
-
-TRUNCATE TABLE Mascota_Tratamiento;
-
-DROP TABLE Mascota_Tratamiento;
-DROP TABLE Veterinario_Especialidad;
-DROP TABLE Mascota;
-DROP TABLE Dueno;
-DROP TABLE Veterinario;
-DROP TABLE Tratamiento;
-DROP TABLE Especialidad;
-
-DROP DATABASE ClinicaVeterinaria;
